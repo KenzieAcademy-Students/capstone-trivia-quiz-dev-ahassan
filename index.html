@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags-->
     <meta charset="UTF-8" />
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
     <meta name="description" content="Kenzie" />
@@ -16,15 +16,26 @@
     <title>Kenzie JavaScript Page</title>
 
     <!-- CSS-->
-    <link href="style.css" rel="stylesheet" media="all" />
-  </head>
+    <link href="style.css" rel="stylesheet" media="all" /> 
+</head>
 
-  <body>
-    <h1>Open the Developer Tools to see the console output.</h1>
-    <h3>
-      Either right click and select "Inspect" or use the shortcut Option + ⌘ + J
-      (on macOS), or Shift + CTRL + J (on Windows/Linux).
-    </h3>
+<body>
+  <div id="category-container"></div>
+    
+  <h1>Trivia Game v1</h1>
+
+    <div id="question-container">
+        <p id="question"></p>
+        <form id="answer-form">
+            <input type="text" id="user-answer" required />
+            <button type="submit">Submit Answer</button>
+        </form>
+        <p id="questions-remaining"></p>
+        <p id="score"></p>
+        <p id="correct-answer-message"></p>
+        <p id="error-message"></p>
+    </div>
+
     <script src="code.js"></script>
-  </body>
+</body>
 </html>
