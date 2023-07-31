@@ -1,1 +1,45 @@
 /* Write your CSS Here. */
+
+h1 {
+  text-align: center;
+  color:green
+}
+
+p {
+  text-align: center;
+}
+
+button{
+    color: blue;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+#question-container {
+  text-align: center;
+}
+
+.message {
+  display: none;
+  color: #007bff;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
